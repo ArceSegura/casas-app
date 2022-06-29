@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@/*": ["./*"],
+            "@adapters/*": ["./Adapters/*"],
+            "@config/*": ["./Config/*"],
+            "@containers/*": ["./Containers/*"],
+            "@views/*": ["./Containers/Views/*"],
+            "@interfaces/*": ["./Interfaces/*"],
+            "@type/*": ["./Types/*"],
+            "@services/*": ["./Services/*"]
+        }
+    }
+}
